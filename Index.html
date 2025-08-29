@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Anchal Kumar Shrivastav | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    .container { max-width: 720px; margin: 30px auto; background: #fff; border-radius: 10px; box-shadow: 0 0 12px #0001; overflow: hidden; }
+    header { background: #4064bf; color: #fff; padding: 25px 18px; text-align: center; }
+    nav { background: #24407e; display: flex; flex-wrap: wrap; justify-content: center; }
+    nav a { color: #fff; text-decoration: none; padding: 14px 18px; transition: background .2s; font-weight: 500; }
+    nav a:hover { background: #3557a2; }
+    section { padding: 22px 18px; }
+    .profile-pic { width: 100px; height: 100px; border-radius: 50%; display: block; margin: 0 auto 14px; object-fit: cover; box-shadow: 0 2px 8px #0002; }
+    h1, h2 { margin: 0 0 16px 0; }
+    .projects { display: grid; gap: 18px; }
+    .project { background: #f2f7ff; padding: 14px; border-radius: 8px; }
+    .contact-links a { background: #4064bf; color: #fff; border-radius: 6px; padding: 9px 16px; display: inline-block; margin: 6px 4px 0 0; text-decoration: none; transition: background .2s; }
+    .contact-links a:hover { background: #24407e; }
+    footer { background: #4064bf; color: #fff; text-align: center; font-size: 1em; padding: 16px 0; margin-top: 10px; }
+    @media (max-width: 600px) {
+      .container { margin: 0; border-radius: 0; }
+      nav a { padding: 10px 8px; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Portfolio</h1>
-  <p>This is my personal website.</p>
+  <div class="container">
+    <header>
+      <img src="https://i.pinimg.com/736x/81/87/56/818756d52e1beee6fae47d93dfe7c8ad.jpg" alt="Profile" class="profile-pic">
+      <h1>Anchal Kumar Shrivastav</h1>
+      <p>Web Enthusiast | Learner</p>
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Anchal Kumar Shrivastav, passionate about building cool projects and learning new things online. This is my simple portfolio made entirely on mobile!</p>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <strong>Mobile Portfolio</strong>
+          <p>Created a personal portfolio website on mobile using only HTML and CSS. Super simple, super fast!</p>
+        </div>
+        <div class="project">
+          <strong>Learning Journey</strong>
+          <p>Self-learning web development directly from the phone. Constantly building, improving, and sharing projects online.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Let's connect! Find me on:</p>
+      <div class="contact-links">
+        <a href="mailto:your@email.com">Email</a>
+        <a href="https://wa.me/XXXXXXXXXXX" target="_blank">WhatsApp</a>
+      </div>
+    </section>
+    <footer>
+      &copy; 2025 Anchal Kumar Shrivastav. Made on Mobile.
+    </footer>
+  </div>
 </body>
 </html>
